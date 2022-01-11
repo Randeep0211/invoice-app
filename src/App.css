@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  width:100vw;
+  height:100vh;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: row;
+  flex: 3;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  flex: 7;
+}

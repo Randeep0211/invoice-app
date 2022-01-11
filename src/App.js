@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './Navbar';
+import Sidebar from './Sidebar';
+import Main from './Main';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Navbar
+          flow="I-Flow"
+          dashboard="Dashboard"
+          invoices="Invoices"
+          clients="Clients"
+          settings="Settings"
+        />
+      </div>
+
+      <div>
+        <Sidebar className="sidebar"/>
+        <Main className="main"
+          dashboard="Dashboard"
+          paid="Paid"
+          unpaid="Unpaid"
+          due="Overdue"
+          draft="Draft"
+          price= "64"
+          Npaid="79"
+          overdue="80"
+          Draft="32"
+          invoice="Recent Invoice"
+
+        />
+      </div>
     </div>
   );
 }
