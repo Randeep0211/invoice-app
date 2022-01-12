@@ -7,7 +7,8 @@ import {
   MdList,
   MdDrafts,
   MdPrint,
-  MdDownload
+  MdDownload,
+  MdArrowForward
 } from 'react-icons/md';
 
 function Main(props) {
@@ -31,7 +32,7 @@ function Main(props) {
           <div>
             <MdOutlinePending className={styles.icon2} />
 
-            <div className={styles.content}> 
+            <div className={styles.content}>
               <h5>{props.unpaid}</h5>
               <h5>{props.Npaid}</h5>
             </div>
@@ -53,13 +54,25 @@ function Main(props) {
             </div>
           </div>
         </div>
-      <div className={styles.invoice_container}>
-        <div className={styles.invoice}><h6>{props.invoice}</h6></div>
-        <div className={styles.icons}><MdPrint /> <MdDownload /></div>
-        <div><Table /></div>
-      </div>
-      </div>
+        <div className={styles.invoice_container}>
+          <div className={styles.head_container}>
+            <div className={styles.invoice}>
+              <h4>{props.invoice}</h4>
+            </div>
+            <div className={styles.icons}>
+              <MdPrint /> <MdDownload />
+            </div>
+          </div>
+          <div>
+            <Table />
 
+            <div className={styles.show}>
+              <div><h4>Showing 4 out of 100</h4></div>
+              <div className={styles.all}><h4>See All  <MdArrowForward /></h4></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

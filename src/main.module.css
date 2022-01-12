@@ -1,15 +1,15 @@
 .container {
   border: 1px solid transparent;
-  margin-left: 310px;
+  margin-left: 250px;
   margin-bottom: 500px;
-  height: 60px;
+  height: 70px;
   position: relative;
   bottom: 770px;
 }
 
 .h1 {
   position: relative;
-  right: 300px;
+  right: 350px;
 }
 
 .input {
@@ -18,13 +18,13 @@
   text-align: center;
   height: 40px;
   position: relative;
-  left: 350px;
+  left: 290px;
   bottom: 60px;
 }
 
 .box {
   border: 1px solid transparent;
-  width: 50vw;
+  width: 55vw;
   height: 100px;
   margin-left: 100px;
   display: flex;
@@ -78,18 +78,32 @@
   border: 1px solid transparent;
   border-radius: 20px;
   width: 800px;
-  height: 270px;
+  height: 290px;
   margin-left: 100px;
   background-color: whitesmoke;
 }
 
-.invoice{
-  position: relative;
-  right: 300px;
+.head_container{
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: space-evenly;
+  height: 45px;
+  
 }
+ .invoice{
+  margin-right: 600px;
+  
+} 
 
 .icons{
-  position: relative;
-  left: 300px;
-  bottom: 35px;
+  margin-top: 25px;
+}
+
+.show{
+  display: flex;
+}
+
+.all{
+  margin-left: 550px;
+  color: blueviolet;
 }

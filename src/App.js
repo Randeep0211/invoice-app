@@ -17,20 +17,20 @@ function App() {
         />
       </div>
 
-      <div>
-        <Sidebar className="sidebar"/>
-        <Main className="main"
+      <div className='container'>
+        <Sidebar className="sidebar" />
+        <Main
+          className="main"
           dashboard="Dashboard"
           paid="Paid"
           unpaid="Unpaid"
           due="Overdue"
           draft="Draft"
-          price= "64"
+          price="64"
           Npaid="79"
           overdue="80"
           Draft="32"
           invoice="Recent Invoice"
-
         />
       </div>
     </div>

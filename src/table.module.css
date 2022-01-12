@@ -1,6 +1,66 @@
-.table{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 20px;
+table {
+  /* table-layout:auto; */
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid transparent;
+  text-align: left;
+  height: 10px;
+}
+
+thead tr:nth-child(1) {
+  width: 100%;
+}
+
+thead tr:nth-child(2) {
+  width: 100%;
+}
+
+thead tr:nth-child(3) {
+  width: 100%;
+}
+
+thead tr:nth-child(4) {
+  width: 100%;
+}
+
+tbody tr:nth-child(1) {
+  width: 100%;
+}
+
+tbody tr:nth-child(2) {
+  width: 100%;
+}
+
+tbody tr:nth-child(3) {
+  width: 100%;
+}
+
+tbody tr:nth-child(4) {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 7px;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+
+tr {
+  border-bottom: 1px solid thistle;
+}
+
+td:nth-child(4) {
+  color: red;
+}
+
+td:nth-child(3) {
+  color: green;
+}
+
+.border{
+  border: 3px solid black;
 }

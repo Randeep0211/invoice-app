@@ -43,6 +43,7 @@ body{
 }
 
 .sidebar{
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   flex: 3;
@@ -52,4 +53,8 @@ body{
   display: flex;
   flex-direction: row;
   flex: 7;
+}
+
+.container{
+  margin-top: 30px;
 }
