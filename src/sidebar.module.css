@@ -17,8 +17,15 @@
 
 }
 
+.img {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+
 .h3{
   color: white;
+  margin-right: 10px;
 }
 
 .btn{
@@ -29,11 +36,37 @@
   width: 100px;
   height: 30px;
   border-bottom: 1px solid white;
+  margin-top: 15px;
 }
 
 .card_container1{
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+  margin-top: 30px;
+}
+
+.client_box{
+  border:1px solid white;
+  border-radius: 30px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.card_container2{
+  color:white;
+  border-bottom: 1px solid white;
+}
+
+
+.h5{
+  margin-right: 150px;
+}
+
+.h3_two{
+  margin-right: 50px;
 }

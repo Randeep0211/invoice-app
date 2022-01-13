@@ -15,12 +15,14 @@ function Main(props) {
   return (
     <div>
       <div className={styles.container}>
+        <div>
         <h1 className={styles.h1}>{props.dashboard}</h1>
         <input
           className={styles.input}
           type="text"
           placeholder="Search anything here"
         />
+        </div>
         <div className={styles.box}>
           <div>
             <MdDashboardCustomize className={styles.icon1} />

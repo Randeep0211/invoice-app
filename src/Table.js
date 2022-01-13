@@ -15,35 +15,35 @@ function Table(props) {
             <th>STATUS</th>
           </tr>
         </thead>
+        <tbody>
+          <Body
+            client="Harry Richardson"
+            date="8/01/2021"
+            amount="$60"
+            status="unpaid"
+          />
 
-        <Body
-          client="Harry Richardson"
-          date="8/01/2021"
-          amount="$60"
-          status="unpaid"
-        />
+          <Body
+            client="Jean marrie"
+            date="14/01/2021"
+            amount="$60"
+            status="overdue"
+          />
 
+          <Body
+            client="Avinash singh"
+            date="21/01/2021"
+            amount="$60"
+            status="paid"
+          />
 
-        <Body
-          client="Jean marrie"
-          date="14/01/2021"
-          amount="$60"
-          status="overdue"
-        />
-
-        <Body
-          client="Avinash singh"
-          date="21/01/2021"
-          amount="$60"
-          status="paid"
-        />
-
-        <Body
-          client="Tony stark"
-          date="8/01/2021"
-          amount="$60"
-          status="draft"
-        />
+          <Body
+            client="Tony stark"
+            date="8/01/2021"
+            amount="$60"
+            status="draft"
+          />
+        </tbody>
       </table>
       <div className={styles.border}></div>
     </div>
